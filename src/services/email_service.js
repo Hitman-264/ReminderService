@@ -12,8 +12,10 @@ const sendBasicEmail = async (mailFrom,mailTo,mailSubject,mailBody)=>{
     }catch(error){
         console.log(error);
     }
-    
 }
+
+
+
 
 module.exports = {
     sendBasicEmail
